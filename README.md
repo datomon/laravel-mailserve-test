@@ -38,7 +38,7 @@
 - 要使用 gmail，需打開「允許低安全性應用程式」，請至 https://www.google.com/settings/security/lesssecureapps  
 - 有些 Mail Server 會限制寄件人E-mail 必須與帳號相同，請特別注意各廠商的規定
 
-(3) 寄出測試信，在另個終端機使用下列指令
+(3) 寄出測試信
 
     $ php artisan mailserve:send 收件人E-mail 標題 信件內容
 
