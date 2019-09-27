@@ -1,7 +1,7 @@
 ## 關於
 
-    - 在本機快速測試 Laravel 專案的 .env 檔中， Mail Server 資訊是否設定正確
-    - 本專案並未使用 Redis 及 Laravel 的 Queue
+    (1)此 Laravel 套件是用來在本機快速測試 Laravel 專案的 Mail Server 資訊是否設定正確
+    (2)未使用 Redis 及 Laravel 的 Queue
 
 ## 版本
 
@@ -35,7 +35,7 @@
     MAIL_FROM_ADDRESS=abc123@gmail.com
     MAIL_FROM_NAME=ABC
 
-註1：要使用 gmail，需打開「允許低安全性應用程式」，請至 https://www.google.com/settings/security/lesssecureapps
+註1：要使用 gmail，需打開「允許低安全性應用程式」，請至 https://www.google.com/settings/security/lesssecureapps  
 註2：有些 Mail Server 會限制寄件人E-mail 必須與帳號相同，請特別注意各廠商的規定
 
 (3) 寄出測試信，在另個終端機使用下列指令
