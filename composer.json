@@ -1,0 +1,26 @@
+{
+    "name": "datomon/laravel-mailserve-test",
+    "description": "測試 Laravel 專案的 .env 檔中，Mail Server 設定是否正確",
+    "require": {
+        "php": "^7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Datomon\\LaravelMailserveTest\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Datomon\\LaravelMailserveTest\\AppServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Datomon",
+            "email": "lcndance1999@gmail.com"
+        }
+    ],
+    "license": "MIT"
+}
